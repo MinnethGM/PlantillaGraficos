@@ -26,6 +26,19 @@ void actualizar() {
 }
 
 void dibujar() {
+	glBegin(GL_TRIANGLES);//Inicia la rutina con un modo de dibujo
+
+	glColor3f(1.0f, 0.0f, 0.0f);
+	glVertex3f(-1.0f, 0.0f, 0.0f);
+
+	glColor3f(0.0f, 1.0f, 0.0f);
+	glVertex3f(0.0f, 1.0f, 0.0f);
+
+	glColor3f(0.0f, 0.0f, 1.0f);
+	glVertex3f(1.0f, 0.0f, 0.0f);
+
+
+	glEnd();//finaliza rutina
 
 }
 
